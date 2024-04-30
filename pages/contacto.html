@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/estilos.css" />
+  </head>
+  <body>
+    <header class="headerotros">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <div class="logo">
+            <h1 class="nombre-otros">Contácto</h1>
+          </div>
+          <nav class="navegacion">
+            <a class="link" href="../index.html">Inicio</a>
+            <a class="link" href="nosotros.html">Nosotros</a>
+            <a class="link" href="contacto.html">Contacto</a>
+          </nav>
+        </header>
+        </div>
+          </div>
+          <form class="formulario">
+            <fieldset>
+              <!-- para agrupar campos que estan relacionados -->
+              <legend>Tus Datos</legend>
+              <!-- Nombre del Form -->
+              <div class="campo">
+                <!-- Utilizo el div ya que tiene display block-->
+                <label for="nombre">Nombre:</label>
+                <input class="input" id="nombre" type="text" placeholder="Nombre" required />
+              </div>
+    
+              <div class="campo">
+                <label for="asunto">Asunto:</label>
+                <input id="asunto" type="text" placeholder="Tu asunto" />
+              </div>
+    
+              <div class="campo">
+                <label for="email">E-mail:</label>
+                <input id="email" type="tel" placeholder="Tu email" />
+              </div>
+    
+              <div class="campo">
+                <label for="tel">Teléfono:</label>
+                <input id="tel" type="tel" placeholder="Tu teléfono" required />
+              </div>
+    
+              <div class="campo">
+                <label for="msj">Mensaje:</label>
+                <textarea id="msj" cols="30" rows="10"></textarea>
+              </div>
+            </fieldset>
+    
+            <fieldset>
+              <legend>Residencia</legend>
+              <label for="provincia">Provincia:</label>
+              <select id="provincia">
+                <option disabled>--- Seleccione ---</option>
+                <option>Buenos Aires</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option selected>Mendoza</option>
+                <option>Misiones</option>
+                <option>Neuquén</option>
+                <option>Río Negro</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fe</option>
+                <option>Santiago del Estero</option>
+                <option>Tierra del Fuego</option>
+                <option>Tucumán</option>
+              </select>
+            </fieldset>
+    
+            <fieldset>
+              <legend>Información Extra</legend>
+    
+              <div class="campo">
+                <label for="paciente">Paciente</label>
+                <input id="paciente" type="radio" name="tipo" />
+              </div>
+    
+              <div class="campo">
+                <label for="alquiler">Alquiler</label>
+                <input id="alquiler" type="radio" name="tipo" />
+                <!-- el name es para que puedas elegír uno u otro no ambos-->
+              </div>
+            </fieldset>
+    
+            <input class="btn" type="submit" />
+          </form>
+
+    <footer class="footer mt-5">
+      <div class="contenedor">
+        <div class="barra">
+              <div class="logo">
+                  <h1 class="nombre-sitio">
+                      Ivana Ponce <span> estética </span>
+                  </h1>
+              </div>
+        </div>
+      </div>
+      <p class="copyright">Todos los derechos reservados &copy; </p>
+  </footer>
+  </body>
