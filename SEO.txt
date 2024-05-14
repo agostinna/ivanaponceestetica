@@ -1,0 +1,25 @@
+--- SEO para la Página Web de Ivana Ponce Estética ---
+
+1. Favicon:
+   Se ha implementado un favicon personalizado para la página web de Ivana Ponce Estética, lo que permite una 
+   identificación visual rápida y mejora la experiencia del usuario.
+
+2. Atributos "alt" de las imágenes:
+   Todos los elementos de imagen en la página web están acompañados de atributos "alt" descriptivos y relevantes.
+    Estos atributos no solo mejoran la accesibilidad para personas con discapacidades visuales, sino que también 
+    proporcionan información importante para los motores de búsqueda, ayudando a mejorar el posicionamiento SEO del 
+    sitio web.
+
+3. Utilización de etiquetas semánticas:
+   Se han utilizado etiquetas semánticas HTML5, como <header>, <nav>, <main>, <section>, <article>, <aside> y 
+   <footer>, para estructurar el contenido de la página de manera lógica y significativa. Esto no solo mejora la 
+   legibilidad y comprensión del contenido por parte de los usuarios, sino que también ayuda a los motores de
+   búsqueda a entender la jerarquía y el contexto del contenido, lo que puede contribuir 
+   positivamente al SEO del sitio.
+
+4. Meta Tag Descriptions:
+   Se han incluido meta tags de descripción en cada página del sitio web. Estas descripciones concisas y 
+   relevantes proporcionan un resumen del contenido de la página y se muestran en los resultados de búsqueda, 
+   lo que ayuda a los usuarios a entender de qué se trata la página antes de hacer clic. Además, 
+   las meta descripciones bien redactadas pueden aumentar las tasas de clics y mejorar el posicionamiento en los 
+   motores de búsqueda al aumentar la relevancia y la calidad del contenido para ciertas consultas de búsqueda.
