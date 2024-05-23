@@ -216,6 +216,19 @@ html {
   }
 }
 
+.card {
+  height: 100%;
+  transition: margin-top 0.5s;
+  @media (min-width: 768px) {
+    margin-top: 5rem;
+  }
+}
+.card-img-top {
+  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+}
+
 /*GALERIA DE PRODUCTOS*/
 
 .productos {
@@ -390,5 +403,36 @@ html {
     @media (max-width: 768px) {
       margin: 0;
     }
+  }
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
   }
 }
