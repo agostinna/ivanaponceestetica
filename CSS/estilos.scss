@@ -36,11 +36,15 @@ h1 {
 }
 
 h2 {
-  font-size: 3.8rem;
+  @media (min-width: 468px) {
+    font-size: 3.8rem;
+  }
 }
 
 h3 {
-  font-size: 3rem;
+  @media (min-width: 468px) {
+    font-size: 3rem;
+  }
 }
 
 h5 {
@@ -56,7 +60,9 @@ img {
   max-width: 100%;
   display: block;
 }
-
+.title-index {
+  line-height: 5rem;
+}
 .contenedor {
   max-width: 120rem;
   margin: 0 auto;
@@ -109,10 +115,17 @@ html {
   }
 }
 
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 768px) {
   .barra {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
     align-items: center;
   }
 }
@@ -268,6 +281,9 @@ html {
       }
     }
   }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -390,7 +406,6 @@ html {
     padding-bottom: 1rem;
   }
   h3 {
-    font-size: 4rem;
     display: inline-block;
     &::after {
       content: "";
@@ -435,4 +450,7 @@ html {
   100% {
     opacity: 1;
   }
+}
+
+.servicios-title {
 }
