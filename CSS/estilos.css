@@ -257,8 +257,14 @@ html {
 .productos img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100%;
   transition: transform 0.3s ease;
+  height: 30rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .productos img {
+    height: 100%;
+  }
 }
 .productos img:hover {
   transform: scale(1.1);
